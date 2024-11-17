@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Teszt Elek",
+        "prefer_labels": [
+            "sport"
+        ],
+        "max_score": 100,
+        "last_game": "2020-01-01T00:00:00.000Z"
+    },
+    {
+        "name": "Kovács Péter",
+        "labels": [
+            [
+                "matek",
+                "történelem"
+            ]
+        ],
+        "max_score": 0,
+        "last_game": "2024-11-17T19:13:49.869926"
+    }
+]

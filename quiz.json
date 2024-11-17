@@ -1,0 +1,1369 @@
+[
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 1,
+        "question": "Melyik évben ért véget a második világháború?",
+        "answer": 1945,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 1,
+        "question": "Melyik évben kezdődött az első világháború?",
+        "answer": 1914,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 2,
+        "question": "Ki volt az Amerikai Egyesült Államok első elnöke?",
+        "answer": "George Washington",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 3,
+        "question": "Ki volt az angol polgárháború alatt a kerekfejűek vezetője?",
+        "answer": "Oliver Cromwell",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "történelem",
+        "level": 1,
+        "question": "Igaz, hogy Julius Caesar volt az első római császár?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 2,
+        "question": "Melyik évben hajtotta végre Kolumbusz Kristóf első expedícióját Amerikába?",
+        "answer": 1492,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 2,
+        "question": "Ki írta az amerikai Függetlenségi Nyilatkozatot?",
+        "answer": "Thomas Jefferson",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 1,
+        "question": "Melyik évben omlott össze a Szovjetunió?",
+        "answer": 1991,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "történelem",
+        "level": 2,
+        "question": "Igaz, hogy a középkorban minden ember írástudó volt?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 3,
+        "question": "Mi volt Napóleon első száműzetésének helyszíne?",
+        "answer": "Elba",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 1,
+        "question": "Melyik évben épült meg a berlini fal?",
+        "answer": 1961,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "történelem",
+        "level": 2,
+        "question": "Melyik ország szállta meg Magyarországot 1956-ban?",
+        "options": ["Egyesült Államok", "Szovjetunió", "Németország", "Franciaország"],
+        "answer": "Szovjetunió",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "select",
+        "label": "történelem",
+        "level": 3,
+        "question": "Ki uralkodott Angliában a spanyol armada veresége idején?",
+        "options": ["I. Erzsébet", "VIII. Henrik", "I. Károly", "Viktória királynő"],
+        "answer": "I. Erzsébet",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 2,
+        "question": "Ki találta fel a nyomtatást Európában?",
+        "answer": "Johannes Gutenberg",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "történelem",
+        "level": 1,
+        "question": "Igaz, hogy a rómaiak fürdőket építettek az elfoglalt területeiken?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "történelem",
+        "level": 1,
+        "question": "Melyik évben született Szent István?",
+        "answer": 975,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 3,
+        "question": "Ki volt az első japán sógun?",
+        "answer": "Minamoto no Yoritomo",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select_multiple",
+        "label": "történelem",
+        "level": 2,
+        "question": "Mely országok vettek részt az első világháború központi hatalmai között?",
+        "options": ["Németország", "Olaszország", "Osztrák-Magyar Monarchia", "Japán"],
+        "answers": ["Németország", "Osztrák-Magyar Monarchia"],
+        "score": 5,
+        "partial_score": 3
+    },
+    {
+        "type": "string",
+        "label": "történelem",
+        "level": 3,
+        "question": "Mi volt a neve az ókori Egyiptomban használt írásrendszernek?",
+        "answer": "Hieroglifák",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "történelem",
+        "level": 1,
+        "question": "Igaz, hogy a Magna Carta 1215-ben íródott?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+      {
+        "type": "integer",
+        "label": "sport",
+        "level": 1,
+        "question": "Melyik évben rendezték az első modern olimpiát?",
+        "answer": 1896,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik ország nyerte a 2018-as labdarúgó-világbajnokságot?",
+        "answer": "Franciaország",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "sport",
+        "level": 1,
+        "question": "Igaz, hogy Usain Bolt nyert három egymást követő olimpián aranyérmet a 100 méteres síkfutásban?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 3,
+        "question": "Ki nyerte a legtöbb Grand Slam tenisztornát férfiak között 2022-ben?",
+        "answer": "Novak Djokovic",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "sport",
+        "level": 1,
+        "question": "Hány játékosból áll egy szabványos labdarúgó csapat a pályán?",
+        "answer": 11,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik városban rendezték az első modern olimpiát?",
+        "options": ["London", "Athén", "Párizs", "Tokió"],
+        "answer": "Athén",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 3,
+        "question": "Ki nyerte az NBA legtöbb MVP díját 2020-ig?",
+        "answer": "Kareem Abdul-Jabbar",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "sport",
+        "level": 1,
+        "question": "Igaz, hogy a Tour de France egy híres kerékpáros verseny?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik ország színeiben versenyzett Michael Phelps?",
+        "answer": "Amerikai Egyesült Államok",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "sport",
+        "level": 1,
+        "question": "Hány percből áll egy szabályos labdarúgó mérkőzés?",
+        "answer": 90,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "sport",
+        "level": 3,
+        "question": "Melyik sportágban nyerte el Serena Williams a legtöbb díjat?",
+        "options": ["Tenisz", "Kosárlabda", "Gimnasztika", "Kerékpározás"],
+        "answer": "Tenisz",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "sport",
+        "level": 2,
+        "question": "Igaz, hogy Pelé három világbajnoki címet nyert Brazíliával?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik évben nyerte először Lewis Hamilton a Forma-1 világbajnoki címet?",
+        "answer": 2008,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 3,
+        "question": "Ki az egyetlen ökölvívó, aki minden súlycsoportban világbajnoki címet nyert?",
+        "answer": "Manny Pacquiao",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select_multiple",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik sportágak szerepeltek az első modern olimpián?",
+        "options": ["Torna", "Úszás", "Rögbi", "Kosárlabda"],
+        "answers": ["Torna", "Úszás"],
+        "score": 5,
+        "partial_score": 3
+    },
+    {
+        "type": "boolean",
+        "label": "sport",
+        "level": 1,
+        "question": "Igaz, hogy a golf egy olimpiai sportág volt 1904-ben?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik nemzet rendezte az első FIFA Világbajnokságot?",
+        "answer": "Uruguay",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "sport",
+        "level": 3,
+        "question": "Hány aranyérmet nyert Michael Phelps a pekingi olimpián?",
+        "answer": 8,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "sport",
+        "level": 1,
+        "question": "Igaz, hogy a kosárlabdában három pontot ér egy távoli dobás?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "select",
+        "label": "sport",
+        "level": 2,
+        "question": "Melyik ország nyerte a legtöbb téli olimpiai aranyérmet 2022-ig?",
+        "options": ["Kanada", "Norvégia", "Egyesült Államok", "Németország"],
+        "answer": "Norvégia",
+        "score": 5,
+        "partial_score": 0
+    },
+      {
+        "type": "string",
+        "label": "informatika",
+        "level": 1,
+        "question": "Mi a bináris számrendszer alapja?",
+        "answer": "2",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "informatika",
+        "level": 2,
+        "question": "Hány bitből áll egy bájt?",
+        "answer": 8,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "informatika",
+        "level": 1,
+        "question": "Igaz, hogy az első programozási nyelvet Ada Lovelace alkotta meg?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "informatika",
+        "level": 3,
+        "question": "Melyik évben jelent meg a C programozási nyelv?",
+        "answer": "1972",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "informatika",
+        "level": 2,
+        "question": "Hány szín van a 24 bites színmélységben?",
+        "answer": 16777216,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "informatika",
+        "level": 1,
+        "question": "Melyik az operációs rendszerek közül Linux disztribúció?",
+        "options": ["Ubuntu", "Windows", "macOS", "Android"],
+        "answer": "Ubuntu",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "informatika",
+        "level": 3,
+        "question": "Mi a TCP/IP protokoll legelső rétege?",
+        "answer": "Hálózati hozzáférési réteg",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "informatika",
+        "level": 1,
+        "question": "Igaz, hogy a HTML programozási nyelv?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "informatika",
+        "level": 2,
+        "question": "Hány alapvető logikai kapu van a digitális elektronikában?",
+        "answer": 3,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "informatika",
+        "level": 2,
+        "question": "Melyik cégnél dolgozott Linus Torvalds, amikor létrehozta a Linuxot?",
+        "options": ["Microsoft", "Apple", "Helsinki Egyetem", "IBM"],
+        "answer": "Helsinki Egyetem",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "informatika",
+        "level": 3,
+        "question": "Igaz, hogy az IPv4 címek 128 bit hosszúak?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "informatika",
+        "level": 1,
+        "question": "Mit jelent az SSD?",
+        "answer": "Solid State Drive",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "informatika",
+        "level": 2,
+        "question": "Hány karakternyi információt tárol egy ASCII karakter?",
+        "answer": 1,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select_multiple",
+        "label": "informatika",
+        "level": 3,
+        "question": "Melyik protokollokat használja a web?",
+        "options": ["HTTP", "FTP", "TCP", "SMTP"],
+        "answers": ["HTTP", "TCP"],
+        "score": 5,
+        "partial_score": 3
+    },
+    {
+        "type": "boolean",
+        "label": "informatika",
+        "level": 1,
+        "question": "Igaz, hogy a Python egy általános célú programozási nyelv?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "informatika",
+        "level": 2,
+        "question": "Ki fejlesztette ki az első JavaScript motort?",
+        "answer": "Brendan Eich",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "informatika",
+        "level": 3,
+        "question": "Milyen maximális fájlméretet támogat a FAT32 fájlrendszer (GB)?",
+        "answer": 4,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "informatika",
+        "level": 1,
+        "question": "Melyik cég fejlesztette a Windows operációs rendszert?",
+        "options": ["Apple", "Microsoft", "Google", "Linux Foundation"],
+        "answer": "Microsoft",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "informatika",
+        "level": 1,
+        "question": "Igaz, hogy a RAM adatokat őriz meg, ha kikapcsolják a számítógépet?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "informatika",
+        "level": 3,
+        "question": "Mi a neve a híres mesterséges intelligencia modellnek, amit OpenAI fejlesztett ki?",
+        "answer": "ChatGPT",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+   {
+        "type": "string",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Ki írta a \"Hamlet\" című drámát?",
+        "answer": "William Shakespeare",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Ki írta a \"Nemzeti dal\" című verset?",
+        "answer": "Petőfi Sándor",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Igaz, hogy Ady Endre a Nyugat első nemzedékéhez tartozott?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Ki írta az \"Isteni színjáték\" című művet?",
+        "answer": "Dante Alighieri",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Hány énekből áll az \"Odüsszeia\"?",
+        "answer": 24,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Melyik művet írta Victor Hugo?",
+        "options": ["Nyomorultak", "Anna Karenina", "Háború és béke", "Bűn és bűnhődés"],
+        "answer": "Nyomorultak",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Igaz, hogy Arany János írta a \"Toldi\" című művet?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 3,
+        "question": "Ki írta a \"Bűn és bűnhődés\" című regényt?",
+        "answer": "Fjodor Dosztojevszkij",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Hány szonettből áll Shakespeare szonettgyűjteménye?",
+        "answer": 154,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Melyik művet írta Mikszáth Kálmán?",
+        "options": ["Az arany ember", "A kőszívű ember fiai", "Beszterce ostroma", "Egy magyar nábob"],
+        "answer": "Beszterce ostroma",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Igaz, hogy József Attila tagja volt a Nyugat második nemzedékének?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 3,
+        "question": "Ki írta a \"Száz év magány\" című regényt?",
+        "answer": "Gabriel García Márquez",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Hány fejezetből áll Balzac \"Goriot apó\" című regénye?",
+        "answer": 6,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "irodalom",
+        "level": 3,
+        "question": "Melyik magyar írótól származik a \"Tündérkert\" című mű?",
+        "options": ["Mikszáth Kálmán", "Móricz Zsigmond", "Jókai Mór", "Tamási Áron"],
+        "answer": "Móricz Zsigmond",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Igaz, hogy a \"Ludas Matyi\" szerzője Fazekas Mihály?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Ki írta az \"Édes Anna\" című regényt?",
+        "answer": "Kosztolányi Dezső",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "irodalom",
+        "level": 3,
+        "question": "Hány énekből áll az \"Iliász\"?",
+        "answer": 24,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "irodalom",
+        "level": 1,
+        "question": "Melyik művet írta Jókai Mór?",
+        "options": ["Az arany ember", "Toldi", "Pál utcai fiúk", "Nyomorultak"],
+        "answer": "Az arany ember",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "irodalom",
+        "level": 2,
+        "question": "Igaz, hogy a \"Háború és béke\" szerzője Lev Tolsztoj?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "irodalom",
+        "level": 3,
+        "question": "Ki írta az \"Anna Karenina\" című regényt?",
+        "answer": "Lev Tolsztoj",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+      {
+        "type": "integer",
+        "label": "matek",
+        "level": 1,
+        "question": "Mennyi 5 + 3?",
+        "answer": 8,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 1,
+        "question": "Mennyi 12 x 3?",
+        "answer": 36,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "float",
+        "label": "matek",
+        "level": 2,
+        "question": "Mennyi π értéke két tizedesjegyre kerekítve?",
+        "answer": 3.14,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0.01
+    },
+    {
+        "type": "string",
+        "label": "matek",
+        "level": 1,
+        "question": "Mi a háromszög belső szögeinek összege fokban?",
+        "answer": "180",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "matek",
+        "level": 1,
+        "question": "Igaz, hogy egy négyzet átlói mindig egyenlő hosszúak?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 2,
+        "question": "Mennyi 15 négyzetre emelve?",
+        "answer": 225,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "matek",
+        "level": 2,
+        "question": "Melyik a prímszám?",
+        "options": ["12", "17", "18", "21"],
+        "answer": "17",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "matek",
+        "level": 3,
+        "question": "Hogyan nevezik azt az egyenletet, amelyben az ismeretlen négyzetes tagként szerepel?",
+        "answer": "Másodfokú egyenlet",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "matek",
+        "level": 1,
+        "question": "Igaz, hogy a kör sugara mindig fele a kör átmérőjének?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 1,
+        "question": "Mennyi 100 - 45?",
+        "answer": 55,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "matek",
+        "level": 3,
+        "question": "Melyik nevezetes tétel foglalkozik derékszögű háromszögekkel?",
+        "options": ["Euler-tétel", "Pitagorasz-tétel", "Fermat-tétel", "Gauss-tétel"],
+        "answer": "Pitagorasz-tétel",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "float",
+        "label": "matek",
+        "level": 2,
+        "question": "Mennyi a √49 értéke?",
+        "answer": 7.0,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0.01
+    },
+    {
+        "type": "boolean",
+        "label": "matek",
+        "level": 2,
+        "question": "Igaz, hogy a nulla egy pozitív szám?",
+        "answer": false,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 3,
+        "question": "Hány szög van egy hétszög belső szögeinek összegében (fokban)?",
+        "answer": 900,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "matek",
+        "level": 3,
+        "question": "Mi az integrálszámítás alaptétele?",
+        "answer": "Newton-Leibniz tétel",
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 2,
+        "question": "Hány oldalú a dodekagon?",
+        "answer": 12,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "float",
+        "label": "matek",
+        "level": 3,
+        "question": "Mennyi az aranymetszés értéke két tizedesjegy pontossággal?",
+        "answer": 1.62,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0.01
+    },
+    {
+        "type": "boolean",
+        "label": "matek",
+        "level": 2,
+        "question": "Igaz, hogy az e értéke közelítőleg 2.718?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "matek",
+        "level": 1,
+        "question": "Mi a paralelogramma átlóinak összege?",
+        "answer": "A két átló hossza",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "matek",
+        "level": 1,
+        "question": "Mennyi 20 ÷ 5?",
+        "answer": 4,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+      {
+        "type": "string",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Mi Magyarország fővárosa?",
+        "answer": "Budapest",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Hány kontinens van a Földön?",
+        "answer": 7,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Igaz, hogy a Nílus a világ leghosszabb folyója?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Melyik ország fővárosa Canberra?",
+        "answer": "Ausztrália",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Melyik ország található Dél-Amerikában?",
+        "options": ["Franciaország", "Mexikó", "Brazília", "Spanyolország"],
+        "answer": "Brazília",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "integer",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Hány méter magas a Mount Everest?",
+        "answer": 8848,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 50
+    },
+    {
+        "type": "boolean",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Igaz, hogy az Amazonas esőerdő a Föld legnagyobb erdősége?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Mi a neve a Szahara homokdűnék alatt található hatalmas vízkészletnek?",
+        "answer": "Nubiai homokkő víztározó",
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Hány ország található Európában?",
+        "answer": 44,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 2
+    },
+    {
+        "type": "select",
+        "label": "földrajz",
+        "level": 3,
+        "question": "Melyik óceán veszi körül Grönlandot?",
+        "options": ["Atlanti-óceán", "Jeges-tenger", "Csendes-óceán", "India-óceán"],
+        "answer": "Jeges-tenger",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Melyik kontinensen található Kína?",
+        "answer": "Ázsia",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Igaz, hogy a Föld legnagyobb tava a Kaszpi-tenger?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "földrajz",
+        "level": 3,
+        "question": "Mi a neve a világ legmélyebb óceáni árkának?",
+        "answer": "Mariana-árok",
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Hány méter a Mariana-árok maximális mélysége?",
+        "answer": 11034,
+        "score": 5,
+        "partial_score": 3,
+        "tolerance": 50
+    },
+    {
+        "type": "select",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Melyik kontinens legnagyobb országa Oroszország?",
+        "options": ["Ázsia", "Európa", "Afrika", "Dél-Amerika"],
+        "answer": "Európa",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "földrajz",
+        "level": 1,
+        "question": "Igaz, hogy a Niagara-vízesés az Egyesült Államok és Kanada között található?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Melyik hegység választja el Ázsiát Európától?",
+        "answer": "Urál-hegység",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "földrajz",
+        "level": 2,
+        "question": "Hány országgal határos Magyarország?",
+        "answer": 7,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "földrajz",
+        "level": 3,
+        "question": "Igaz, hogy a Föld legforróbb pontja az Etióp-mélyföldön található?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "select",
+        "label": "földrajz",
+        "level": 3,
+        "question": "Melyik ország tartozik a Skandináv-félszigethez?",
+        "options": ["Dánia", "Svédország", "Izland", "Németország"],
+        "answer": "Svédország",
+        "score": 5,
+        "partial_score": 0
+    },
+  {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Melyik szuperhős igazi neve Peter Parker?",
+        "answer": "Pókember",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Hány tagja volt eredetileg a Beatles zenekarnak?",
+        "answer": 4,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Igaz, hogy Beyoncé az egyik legismertebb popénekesnő?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Ki rendezte a \"Star Wars\" első, 1977-es epizódját?",
+        "answer": "George Lucas",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Melyik sorozatban szerepel a karakter Walter White?",
+        "options": ["Breaking Bad", "The Sopranos", "Mad Men", "Stranger Things"],
+        "answer": "Breaking Bad",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Igaz, hogy a Marvel Cinematic Universe 2008-ban indult a Vasemberrel?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 3,
+        "question": "Ki játszotta a főszerepet a \"Matrix\" című filmben?",
+        "answer": "Keanu Reeves",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Hány évad készült a \"Friends\" (Jóbarátok) című sorozatból?",
+        "answer": 10,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Melyik híres popénekesnő dala a \"Bad Romance\"?",
+        "options": ["Beyoncé", "Lady Gaga", "Adele", "Taylor Swift"],
+        "answer": "Lady Gaga",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "boolean",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Igaz, hogy a \"The Beatles\" egy brit zenekar?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Ki játszotta el a Vasembert a Marvel filmekben?",
+        "answer": "Robert Downey Jr.",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "popkultúra",
+        "level": 3,
+        "question": "Hány Oscar-díjat nyert Leonardo DiCaprio 2022-ig?",
+        "answer": 1,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Melyik híres regény alapján készült a \"Gyűrűk Ura\" trilógia?",
+        "answer": "A Gyűrűk Ura",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "select_multiple",
+        "label": "popkultúra",
+        "level": 3,
+        "question": "Melyik filmeket rendezte Christopher Nolan?",
+        "options": ["Eredet", "Dunkirk", "Titanic", "Tenet"],
+        "answers": ["Eredet", "Dunkirk", "Tenet"],
+        "score": 5,
+        "partial_score": 3
+    },
+    {
+        "type": "boolean",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Igaz, hogy Ariana Grande a \"Thank U, Next\" című dalt adta elő?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Melyik sorozat főszereplője Eleven?",
+        "answer": "Stranger Things",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "integer",
+        "label": "popkultúra",
+        "level": 2,
+        "question": "Hány tagja volt a Spice Girls zenekarnak?",
+        "answer": 5,
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    },
+    {
+        "type": "boolean",
+        "label": "popkultúra",
+        "level": 3,
+        "question": "Igaz, hogy a Harry Potter sorozat szerzője J.K. Rowling?",
+        "answer": true,
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "select",
+        "label": "popkultúra",
+        "level": 3,
+        "question": "Melyik sorozatból származik a híres mondat: \"Winter is coming\"?",
+        "options": ["Game of Thrones", "Breaking Bad", "The Sopranos", "The Witcher"],
+        "answer": "Game of Thrones",
+        "score": 5,
+        "partial_score": 0
+    },
+    {
+        "type": "string",
+        "label": "popkultúra",
+        "level": 1,
+        "question": "Melyik popénekes adta ki a \"Thriller\" című albumot?",
+        "answer": "Michael Jackson",
+        "score": 5,
+        "partial_score": 2,
+        "tolerance": 0
+    }
+]
