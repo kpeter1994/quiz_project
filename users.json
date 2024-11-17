@@ -17,5 +17,16 @@
         ],
         "max_score": 0,
         "last_game": "2024-11-17T19:13:49.869926"
+    },
+    {
+        "name": "Takács Péter",
+        "labels": [
+            [
+                "irodalom",
+                "sport"
+            ]
+        ],
+        "max_score": 0,
+        "last_game": "2024-11-17T19:33:03.023093"
     }
 ]

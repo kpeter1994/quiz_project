@@ -27,16 +27,18 @@ class User:
 
     def save_user(self, labels):
         users = self.open_file_for_read()
-        if self.is_new_user():
-            prefer_labels = self.get_user_labels(labels)
-            users.append({
-                "name": self.name,
-                "labels": [prefer_labels],
-                "max_score": 0,
-                "last_game": datetime.now().isoformat()
-            })
-            with open(self.filename, 'w', encoding="utf-8") as user_file:
-                json.dump(users, user_file, ensure_ascii=False, indent=4)
+        prefer_labels = self.get_user_labels(labels)
+        users.append({
+            "name": self.name,
+            "labels": [prefer_labels],
+            "max_score": 0,
+            "last_game": datetime.now().isoformat()
+        })
+        with open(self.filename, 'w', encoding="utf-8") as user_file:
+            json.dump(users, user_file, ensure_ascii=False, indent=4)
+
+
+
 
     def format_user_name(self):
         return self.name.split()[-1]
