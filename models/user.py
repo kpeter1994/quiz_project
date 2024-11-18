@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 class User:
-    def __init__(self, name, filename="users.json"):
+    def __init__(self, name, filename="data/users.json"):
         self.name = name
         self.filename = filename
         self.labels = None
@@ -30,14 +30,29 @@ class User:
         prefer_labels = self.get_user_labels(labels)
         users.append({
             "name": self.name,
-            "labels": [prefer_labels],
+            "labels": prefer_labels,
             "max_score": 0,
             "last_game": datetime.now().isoformat()
         })
         with open(self.filename, 'w', encoding="utf-8") as user_file:
             json.dump(users, user_file, ensure_ascii=False, indent=4)
 
+    def update_max_score(self, score):
+        users = self.open_file_for_read()
 
+        for user in users:
+            if user["name"] == self.name and user["max_score"] < score:
+                user["max_score"] = score
+                break
+        with open(self.filename, "w", encoding="utf-8") as user_file:
+            json.dump(users, user_file, ensure_ascii=False, indent=4)
+
+
+    def init_user(self):
+        for user in self.open_file_for_read():
+            if user["name"] == self.name:
+                self.labels = user["labels"]
+                self.score = user["max_score"]
 
 
     def format_user_name(self):

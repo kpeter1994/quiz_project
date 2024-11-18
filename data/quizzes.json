@@ -25,6 +25,7 @@
         "level": 2,
         "question": "Ki volt az Amerikai Egyesült Államok első elnöke?",
         "answer": "George Washington",
+        "acceptable": ["Washington"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -35,6 +36,7 @@
         "level": 3,
         "question": "Ki volt az angol polgárháború alatt a kerekfejűek vezetője?",
         "answer": "Oliver Cromwell",
+        "acceptable": ["Cromwell"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -133,6 +135,7 @@
         "level": 2,
         "question": "Ki találta fel a nyomtatást Európában?",
         "answer": "Johannes Gutenberg",
+        "acceptable": ["Gutenberg"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -420,11 +423,11 @@
         "partial_score": 0
     },
     {
-        "type": "string",
+        "type": "integer",
         "label": "informatika",
         "level": 3,
         "question": "Melyik évben jelent meg a C programozási nyelv?",
-        "answer": "1972",
+        "answer": 1972,
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -601,6 +604,7 @@
         "level": 1,
         "question": "Ki írta a \"Nemzeti dal\" című verset?",
         "answer": "Petőfi Sándor",
+        "available": ["Petőfi"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -620,6 +624,7 @@
         "level": 2,
         "question": "Ki írta az \"Isteni színjáték\" című művet?",
         "answer": "Dante Alighieri",
+        "acceptable": ["Dante"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -811,11 +816,11 @@
         "tolerance": 0.01
     },
     {
-        "type": "string",
+        "type": "integer",
         "label": "matek",
         "level": 1,
         "question": "Mi a háromszög belső szögeinek összege fokban?",
-        "answer": "180",
+        "answer": 180,
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -923,6 +928,7 @@
         "level": 3,
         "question": "Mi az integrálszámítás alaptétele?",
         "answer": "Newton-Leibniz tétel",
+        "acceptable": ["Newton-Leibniz"],
         "score": 5,
         "partial_score": 3,
         "tolerance": 0
@@ -962,6 +968,7 @@
         "level": 1,
         "question": "Mi a paralelogramma átlóinak összege?",
         "answer": "A két átló hossza",
+        "acceptable": ["átló"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -1177,6 +1184,7 @@
         "level": 1,
         "question": "Melyik szuperhős igazi neve Peter Parker?",
         "answer": "Pókember",
+        "acceptable": ["spiderman"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0
@@ -1206,6 +1214,7 @@
         "level": 2,
         "question": "Ki rendezte a \"Star Wars\" első, 1977-es epizódját?",
         "answer": "George Lucas",
+        "acceptable": ["lucas"],
         "score": 5,
         "partial_score": 2,
         "tolerance": 0

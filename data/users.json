@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Teszt Elek",
+        "prefer_labels": [
+            "sport"
+        ],
+        "max_score": 100,
+        "last_game": "2020-01-01T00:00:00.000Z"
+    },
+    {
+        "name": "Kovács Péter",
+        "labels": [
+            "történelem"
+        ],
+        "max_score": 40,
+        "last_game": "2024-11-18T15:40:43.382920"
+    },
+    {
+        "name": "Kovács Béla",
+        "labels": [
+            "matek",
+            "sport",
+            "történelem"
+        ],
+        "max_score": 18,
+        "last_game": "2024-11-18T19:08:30.162099"
+    }
+]
