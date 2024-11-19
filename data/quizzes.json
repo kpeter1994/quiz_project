@@ -26,7 +26,7 @@
         "question": "Ki volt az Amerikai Egyesült Államok első elnöke?",
         "answer": "George Washington",
         "acceptable": ["Washington"],
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -56,7 +56,7 @@
         "level": 2,
         "question": "Melyik évben hajtotta végre Kolumbusz Kristóf első expedícióját Amerikába?",
         "answer": 1492,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -66,7 +66,7 @@
         "level": 2,
         "question": "Ki írta az amerikai Függetlenségi Nyilatkozatot?",
         "answer": "Thomas Jefferson",
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -86,7 +86,7 @@
         "level": 2,
         "question": "Igaz, hogy a középkorban minden ember írástudó volt?",
         "answer": false,
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
     {
@@ -116,7 +116,7 @@
         "question": "Melyik ország szállta meg Magyarországot 1956-ban?",
         "options": ["Egyesült Államok", "Szovjetunió", "Németország", "Franciaország"],
         "answer": "Szovjetunió",
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
     {
@@ -136,7 +136,7 @@
         "question": "Ki találta fel a nyomtatást Európában?",
         "answer": "Johannes Gutenberg",
         "acceptable": ["Gutenberg"],
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -176,7 +176,7 @@
         "question": "Mely országok vettek részt az első világháború központi hatalmai között?",
         "options": ["Németország", "Olaszország", "Osztrák-Magyar Monarchia", "Japán"],
         "answers": ["Németország", "Osztrák-Magyar Monarchia"],
-        "score": 5,
+        "score": 7,
         "partial_score": 3
     },
     {
@@ -214,7 +214,7 @@
         "level": 2,
         "question": "Melyik ország nyerte a 2018-as labdarúgó-világbajnokságot?",
         "answer": "Franciaország",
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -254,7 +254,7 @@
         "question": "Melyik városban rendezték az első modern olimpiát?",
         "options": ["London", "Athén", "Párizs", "Tokió"],
         "answer": "Athén",
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
     {
@@ -282,7 +282,7 @@
         "level": 2,
         "question": "Melyik ország színeiben versenyzett Michael Phelps?",
         "answer": "Amerikai Egyesült Államok",
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -312,7 +312,7 @@
         "level": 2,
         "question": "Igaz, hogy Pelé három világbajnoki címet nyert Brazíliával?",
         "answer": true,
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
     {
@@ -321,7 +321,7 @@
         "level": 2,
         "question": "Melyik évben nyerte először Lewis Hamilton a Forma-1 világbajnoki címet?",
         "answer": 2008,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -342,7 +342,7 @@
         "question": "Melyik sportágak szerepeltek az első modern olimpián?",
         "options": ["Torna", "Úszás", "Rögbi", "Kosárlabda"],
         "answers": ["Torna", "Úszás"],
-        "score": 5,
+        "score": 7,
         "partial_score": 3
     },
     {
@@ -360,7 +360,7 @@
         "level": 2,
         "question": "Melyik nemzet rendezte az első FIFA Világbajnokságot?",
         "answer": "Uruguay",
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -390,7 +390,7 @@
         "question": "Melyik ország nyerte a legtöbb téli olimpiai aranyérmet 2022-ig?",
         "options": ["Kanada", "Norvégia", "Egyesült Államok", "Németország"],
         "answer": "Norvégia",
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
       {
@@ -409,7 +409,7 @@
         "level": 2,
         "question": "Hány bitből áll egy bájt?",
         "answer": 8,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -438,7 +438,7 @@
         "level": 2,
         "question": "Hány szín van a 24 bites színmélységben?",
         "answer": 16777216,
-        "score": 5,
+        "score": 7,
         "partial_score": 3,
         "tolerance": 0
     },
@@ -477,7 +477,7 @@
         "level": 2,
         "question": "Hány alapvető logikai kapu van a digitális elektronikában?",
         "answer": 3,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -488,7 +488,7 @@
         "question": "Melyik cégnél dolgozott Linus Torvalds, amikor létrehozta a Linuxot?",
         "options": ["Microsoft", "Apple", "Helsinki Egyetem", "IBM"],
         "answer": "Helsinki Egyetem",
-        "score": 5,
+        "score": 7,
         "partial_score": 0
     },
     {
@@ -497,7 +497,7 @@
         "level": 3,
         "question": "Igaz, hogy az IPv4 címek 128 bit hosszúak?",
         "answer": false,
-        "score": 5,
+        "score": 11,
         "partial_score": 0
     },
     {
@@ -516,7 +516,7 @@
         "level": 2,
         "question": "Hány karakternyi információt tárol egy ASCII karakter?",
         "answer": 1,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -527,7 +527,7 @@
         "question": "Melyik protokollokat használja a web?",
         "options": ["HTTP", "FTP", "TCP", "SMTP"],
         "answers": ["HTTP", "TCP"],
-        "score": 5,
+        "score": 11,
         "partial_score": 3
     },
     {
@@ -545,7 +545,7 @@
         "level": 2,
         "question": "Ki fejlesztette ki az első JavaScript motort?",
         "answer": "Brendan Eich",
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },
@@ -555,7 +555,7 @@
         "level": 3,
         "question": "Milyen maximális fájlméretet támogat a FAT32 fájlrendszer (GB)?",
         "answer": 4,
-        "score": 5,
+        "score": 7,
         "partial_score": 2,
         "tolerance": 0
     },

@@ -8,17 +8,11 @@ class IntegerQuestion(Question):
         self.user_answer = None
 
     def full_match(self):
-        if self.user_answer == self.answer:
-            return True
-        return False
+        return self.user_answer == self.answer
 
     def is_difference_within_limit(self):
         relative_difference = abs(self.answer - self.user_answer) / self.answer
-        if relative_difference < 0.1:
-            return True
-        return False
-
-
+        return relative_difference < 0.1
 
     def ask_question(self):
         self.user_answer = int(input(f'{self.question} '))
@@ -32,7 +26,6 @@ class IntegerQuestion(Question):
             score = self.score - 3
             message = f'A válszod helytelen. A helyes válsz: {self.answer} de mert kevesebb mint 10%-ot tévedtél jár {score} pont'
             return score, message
-
 
         score = 0
         message = f'A válsz helytelen. A helyes válsz: {self.answer}'

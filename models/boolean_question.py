@@ -7,17 +7,17 @@ class BooleanQuestion(Question):
         self.answer = answer
         self.user_answer = None
 
-    def full_match(self):
-        if self.answer:
-            if self.user_answer.lower() in ["igaz", "igen"]:
-                return True
+    def match(self):
+        if self.answer == True:
+            return self.user_answer.lower() in ["igaz", "igen"]
+        if self.answer == False:
+            return self.user_answer.lower() in ["hamis", "nem"]
         return False
-
 
     def ask_question(self):
         self.user_answer = input(f'{self.question} ')
 
-        if self.full_match():
+        if self.match():
             score = self.score
             message = f'A válsz helyes'
             return score, message

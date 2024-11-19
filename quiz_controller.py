@@ -5,7 +5,8 @@ from models.user import User
 from models.string_question import StringQuestion
 from models.integer_question import IntegerQuestion
 from models.boolean_question import BooleanQuestion
-
+from models.float_question import FloatQuestion
+from models.select_question import SelectQuestion
 
 
 class QuizController:
@@ -37,19 +38,20 @@ class QuizController:
             self.user.init_user()
             print(f'Üdv újra itt, {self.user.format_user_name()}! Ideje megdönteni a rekordodat, ami {self.user.score} pont')
 
-
     def get_questions_for_user(self):
         selected_question = []
         for question in self.open_file_for_read():
-            if question['type'] == 'boolean' or question['type'] == 'boolean':
-                selected_question.append(question)
+            # if question['type'] == 'select' or question['type'] == 'select':
+            selected_question.append(question)
         return random.sample(selected_question, min(len(selected_question), 10))
 
     def play_quiz(self):
         question_classes = {
             'string': StringQuestion,
             'integer': IntegerQuestion,
-            'boolean': BooleanQuestion
+            'boolean': BooleanQuestion,
+            'float': FloatQuestion,
+            'select': SelectQuestion,
         }
 
         for question in self.get_questions_for_user():
@@ -58,6 +60,10 @@ class QuizController:
                 extra_args = {}
                 if question_type == 'string':
                     extra_args['acceptable'] = question.get('acceptable', [])
+                if question_type == 'float':
+                    extra_args['tolerance'] = question.get('tolerance', 0.01)
+                if question_type == 'select':
+                    extra_args['options'] = question.get('options', [])
 
                 quiz_item = question_classes[question_type](
                     question['type'],
@@ -80,7 +86,6 @@ class QuizController:
         new_game = input('Készen állsz a következő játékra? (igen/nem) ')
         if new_game == 'igen':
             self.play_quiz()
-
 
 
 quiz = QuizController()
